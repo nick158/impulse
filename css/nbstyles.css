@@ -5,3 +5,11 @@
 .text-white{
 	color: white;
 }
+.linkTo{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: white;
+}
+.linkTo a {
+	background-color: white;
+}
