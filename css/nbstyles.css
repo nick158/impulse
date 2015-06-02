@@ -29,3 +29,10 @@
     padding-top:0px;
 }
 
+.mine{
+	border-radius: 0px;
+	border: solid 1px black;
+};
+.mine:hover{
+	border-radius:0px;
+};
