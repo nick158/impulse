@@ -35,4 +35,5 @@
 };
 .mine:hover{
 	border-radius:0px;
+	border: solid 1px black;
 };
