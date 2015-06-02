@@ -14,10 +14,18 @@
 	background-color: white;
 	font-size: 2em;
 }
-.mine{
-	border-radius: 0px;
-	border: solid 1px black;
-};
-.mine:hover{
-	border-radius:0px;
-};
+
+@media screen and (max-width: 767px) {
+.fix {
+    /*height:50%;
+    padding-top:-100px;
+    top:190px;*/
+    height:350px !important;
+}
+}
+
+
+.forcepadding {
+    padding-top:0px;
+}
+
