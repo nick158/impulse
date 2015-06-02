@@ -5,28 +5,39 @@
 .text-white{
 	color: white;
 }
+<<<<<<< HEAD
 
-#nextPage{
-	background-color: #F05F40;
-}
-#linkTo{
-	padding-top: 2.5em;
-	padding-bottom: 2.5em;
-	}
-.underline{
-	font-style: underline;
-}
-.bg-highlight{
+=======
+.linkTo{
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: white;
-	color: black;
 }
-.dark{
-	max-width: 500px;
-	border: 1px solid #ccc;
+.linkTo a {
+	background-color: white;
+	font-size: 2em;
 }
-.box{
-	border: 2px solid black;
-	padding: 1em;
-	margin-top: -1em;
-	margin-bottom: 2.65em;
+
+@media screen and (max-width: 767px) {
+.fix {
+    /*height:50%;
+    padding-top:-100px;
+    top:190px;*/
+    height:350px !important;
 }
+}
+
+
+.forcepadding {
+    padding-top:0px;
+}
+
+.mine{
+	border-radius: 0px;
+	border: solid 1px black;
+};
+.mine:hover{
+	border-radius:0px;
+	border: solid 1px black;
+};
+>>>>>>> origin/gh-pages
