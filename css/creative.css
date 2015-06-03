@@ -280,6 +280,12 @@ header .header-content .header-content-inner p {
     transition: all .45s;
 }
 
+.portfolio-box-caption .img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 50%;
@@ -306,6 +312,11 @@ header .header-content .header-content-inner p {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+}
+
+<!-- For profile pictures -->
+.img-circle{
+  border-radius: 50%;
 }
 
 @media(min-width:768px) {

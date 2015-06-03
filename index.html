@@ -66,7 +66,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#pagetop">Home</a>
+                        <a class="page-scroll" href="#page-top">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -247,7 +247,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="#" class="portfolio-box" data-toggle="modal" data-target="#alexmodal">
                         <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -360,6 +360,26 @@
             </div>
         </div>
     </div>
+    
+    <!--Alex's Modal-->
+    <div class="modal fade" id="alexmodal" tabindex="-1" role="dialog" aria-labelledby="alexmodal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><strong>Alex Karanis</strong></h4>
+                </div>
+                <div class="modal-body">
+                <p>Alex has been with BOOST Marketing since its inception, and has avidly supported the project ever since he joined. An aspiring filmmaker, he travels the globe frequently to find new sources of inspiration and scenery. Alex enjoys working with Varoon, as both have a similar taste in photography and filmmaking.</p>
+                <p>Alex is extremely skilled in the Adobe Creative Suite, and specializes in Sony Vegas moviemaking.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="mailto:alexkaranis@boostmarketing.com" target = "_blank"><button type="button" class="btn btn-default">Contact</button></a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="contact">
         <div class="container">
@@ -416,7 +436,8 @@
                         <p class="text-white">Do you love to meet people? Are you a social media expert? We need youth with a talent for getting the word out on events, youth organizations, and small business promotions.</p>
                     </div>
                 </div>
-            </div>
+            </div> 
+            
             <div class="row" style="padding-top: 30px">
                 <hr class="light">
                 <div class="col-lg-16 text-center">
