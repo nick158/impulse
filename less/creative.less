@@ -13,7 +13,7 @@ body {
 }
 
 hr {
-    border-color: @theme-dark;
+    border-color: @theme-primary;
     border-width: 3px;
     max-width: 50px;
 }
@@ -24,10 +24,10 @@ hr.light {
 
 a {
     .transition-all;
-    color: @theme-dark;
+    color: @theme-primary;
     &:hover,
     &:focus {
-        color: darken @theme-dark, 10%);
+        color: darken @theme-primary, 10%);
     }
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 .bg-primary {
-    background-color: @theme-dark;
+    background-color: @theme-primary;
 }
 
 .bg-dark {
@@ -79,13 +79,13 @@ aside {
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
-        color: @theme-dark;
+        color: @theme-primary;
         .sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken @theme-dark, 10%);
+            color: darken @theme-primary, 10%);
         }
     }
     .nav {
@@ -97,13 +97,13 @@ aside {
                 font-size: 13px;
                 color: @theme-dark;
                 &:hover {
-                    color: @theme-dark;
+                    color: @theme-primary;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: @theme-dark !important;
+                    color: @theme-primary !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -133,18 +133,18 @@ aside {
             background-color: white;
             border-color: fade(@theme-dark, 5%);
             .navbar-header .navbar-brand {
-                color: @theme-dark;
+                color: @theme-primary;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken @theme-dark, 10%);
+                    color: darken @theme-primary, 10%);
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: @theme-dark;
                 &:hover {
-                    color: @theme-dark;
+                    color: @theme-primary;
                 }
             }
         }
@@ -235,7 +235,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: fade @theme-dark, 90%);
+        background: fade @theme-primary, 90%);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -290,7 +290,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: @theme-dark;
+    color: @theme-primary;
 }
 
 .no-gutter > [class*='col-'] {
@@ -304,7 +304,7 @@ header {
 }
 
 .btn-primary {
-    .button-variant(white @theme-dark);
+    .button-variant(white @theme-primary);
 }
 
 .btn {

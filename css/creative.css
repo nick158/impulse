@@ -275,9 +275,9 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .45s;
+    -moz-transition: all .45s;
+    transition: all .45s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
