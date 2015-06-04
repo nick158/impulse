@@ -83,7 +83,9 @@
     margin: 0 auto;
     max-width: 650px;
 }
-
+.profile img{
+    margin: auto;
+}
 .profile .portfolio-box-caption {
     display: block;
     position: absolute;
