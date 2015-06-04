@@ -32,6 +32,7 @@
 .linkTo{
 	padding-top: 60px;
 	padding-bottom: 60px;
+	background-color: white;
 	background-color: rgba(232, 108, 25, .9);
 	background-image:;
 }
@@ -56,6 +57,13 @@
 
 .mine{
 	border-radius: 0px;
+	border: solid 1px black;
+};
+.mine:hover{
+	border-radius:0px;
+	border: solid 1px black;
+};
+
 	border: 1px solid black;
 }
 /*for the gallery*/
