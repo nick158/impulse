@@ -90,8 +90,9 @@
     display: block;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
+    margin-left: 10%;
     text-align: center;
     color: #fff;
     opacity: 0;
