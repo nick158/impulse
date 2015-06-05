@@ -21,6 +21,7 @@ a:hover{
 .bg-highlight{
 	background-color: white;
 	color: black;
+    padding-bottom: 25px;
 }
 .dark{
 	max-width: 500px;
@@ -162,4 +163,9 @@ a:hover{
 }
 video{
     max-height: 100%;
+}
+.gallery{
+    max-width: 100%;
+    max-height: 350px;
+    margin-bottom:20px;
 }
