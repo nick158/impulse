@@ -169,3 +169,53 @@ video{
     max-height: 350px;
     margin-bottom:20px;
 }
+@media(max-width:768px){
+    .fdropdown{
+      display:none;
+    }
+    .dropdownlink{
+        display:none;
+    }
+    .dropdownfix{
+        display:none;
+    }
+    .mobilegallery{
+        color:#ccc;
+        margin-left:1em;
+    }
+}
+@media(min-width:768px){
+    .fdropdown{
+        position:fixed;
+        opacity:0;
+        padding-top:0px;
+        padding-left:15px;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        transition: all 0.7s;
+        height:50px;
+        width:115px;
+        z-index:10;
+        background-color:white;
+    }
+    .dropdownlink{
+        color:black;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+        text-transform: uppercase;
+        font-weight:bold;   
+    }
+    .dropdownfix{
+        font-size:13px;
+        position:fixed;
+        padding-top:16px;
+        top:0px;
+        z-index:9;
+        color:rgb(240, 95, 64);
+        transition:none;
+    }
+    .mobilegallery{
+        position:fixed;
+        top:0px;
+        display:none !important;
+    }
+}

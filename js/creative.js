@@ -42,9 +42,10 @@
         }
     })
     //Hover foe the freelancer link
-    $("#dropTrig").bind("mouseeenter mouseleave", function(){
-        $( this ).dropdown('toggle')
-    })
+    //commenting out because i have no idea what this does
+    //$("#dropTrig").bind("mouseeenter mouseleave", function(){
+        //$( this ).dropdown('toggle')
+    //})
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
