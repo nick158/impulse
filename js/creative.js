@@ -41,6 +41,10 @@
             top: 100
         }
     })
+    //Hover foe the freelancer link
+    $("#dropTrig").bind("mouseeenter mouseleave", function(){
+        $( this ).dropdown('toggle')
+    })
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
