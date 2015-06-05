@@ -159,4 +159,7 @@ a:hover{
 }
 .nametag:hover{
     text-decoration: none;
-};
+}
+video{
+    max-height: 100%;
+}
